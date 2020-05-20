@@ -3,10 +3,10 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 运行服务于 localhost:8088
 npm run dev
 
 ```
