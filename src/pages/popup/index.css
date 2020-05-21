@@ -1,0 +1,60 @@
+.lineol-popup {
+  /* display: none; */
+  position: absolute;
+  background-color: white;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  -webkit-filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+  border: 1px solid #cccccc;
+  bottom: 12px;
+  left: -50px;
+  width: 120px;
+  border-radius: 3px;
+}
+
+.lineol-popup:after,
+.lineol-popup:before {
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.lineol-popup:after {
+  border-top-color: white;
+  border-width: 10px;
+  left: 48px;
+  margin-left: -10px;
+}
+
+.lineol-popup:before {
+  border-top-color: #cccccc;
+  border-width: 11px;
+  left: 48px;
+  margin-left: -11px;
+}
+
+.linepopup-title {
+  font-weight: bold;
+  border-bottom: 1px solid #cccccc;
+  padding: 5px 8px;
+}
+
+.linepopup-content {
+  padding: 5px 8px;
+  text-align: center;
+}
+
+.lineol-popup-closer {
+  text-decoration: none;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+.lineol-popup-closer:after {
+  content: "✖";
+}
